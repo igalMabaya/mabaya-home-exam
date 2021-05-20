@@ -15,6 +15,7 @@ class MabayaHomeExamApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
     @Test
