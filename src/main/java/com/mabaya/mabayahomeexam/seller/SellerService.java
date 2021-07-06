@@ -17,6 +17,5 @@ public class SellerService {
 
     public List<Object[]> getAllSeller() {
         return sellerRepository.findAllSellers();
-
     }
 }

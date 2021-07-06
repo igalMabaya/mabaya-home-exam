@@ -14,11 +14,6 @@ class MabayaHomeExamApplicationTests {
     SellerService sellerService;
 
     @Test
-    void contextLoads() {
-
-    }
-
-    @Test
     void runTestExample() {
         List<Object[]> sellers = sellerService.getAllSeller();
         for (Object[] seller : sellers) {

@@ -16,7 +16,7 @@ public class Campaign {
     private String name;
 
     @ManyToOne
-    @JoinColumn(name = "sellerId")
+    @JoinColumn(name = "seller_id")
     private Seller seller;
 
     public Campaign(Long id, String name, Seller seller) {
