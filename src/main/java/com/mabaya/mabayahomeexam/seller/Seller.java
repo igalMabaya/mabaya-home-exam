@@ -1,5 +1,7 @@
 package com.mabaya.mabayahomeexam.seller;
 
+import com.sun.istack.NotNull;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -14,6 +16,10 @@ public class Seller {
 
     @Column
     private String name;
+
+    @Column(nullable = true)
+    @NotNull
+    private String description;
 
     public Seller(Long id, String name) {
         this.id = id;
